@@ -306,7 +306,7 @@ mytable.sub=function(y,x,data,max.ylev=5,method=1,show.total=FALSE){
 #' @param obj an object
 #' @param digits an integer
 printmytable2=function(obj,digits=1){
-    plusminus="|"
+    plusminus="&plusmn;"
     cl=c()
     N=c()
     varnames=c()
